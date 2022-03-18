@@ -21,7 +21,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "yarn run build",
-    "prepublishOnly": "npm test && npm run lint",
+    "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
@@ -47,5 +47,5 @@
   ],
   "author": "Madkour17",
   "license": "ISC",
-  "description": "egyptian nid"
+  "description": "Extract basic info from Egyptian NIDs"
 }
