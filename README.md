@@ -5,12 +5,12 @@ Extract basic info from Egyptian NIDs
     - City
     - Age
     - Sex
-    - day
+    - Day
     - Month
     - Year
     - Birthday
 
-
+[![npm](https://badgen.net/npm/v/eg-nid)](https://www.npmjs.com/package/eg-nid)
 
 # Installation
 
