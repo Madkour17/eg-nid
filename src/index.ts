@@ -33,7 +33,7 @@ export const egNid = (nid: string | number) => {
 const getMillennium = (value: string) => value === '2' ? '19' : '20'
 
 const validate = (nid: string) => {
-    if (!nidRegex.test(nid)) {
+    if (!nidRegex.test(nid) || nid.length !== 14) {
         return false
     }
     return true
