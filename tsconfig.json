@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["ES2019"],
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "t.js", "t.js"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
