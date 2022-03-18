@@ -45,3 +45,8 @@ console.log(personalInfo)
 //   bd: '14-03-1992'
 // }
 ```
+
+# Contact me
+
+[![name](https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg)](https://www.linkedin.com/in/madkour7/)
+[![name](https://user-images.githubusercontent.com/45951682/159041452-0cd5ee66-8403-4847-9ba7-090fed7e1dba.png)](https://www.madkour17.com)
