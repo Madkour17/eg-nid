@@ -11,6 +11,8 @@ Extract basic info from Egyptian NIDs
     - Birthday
 
 [![npm](https://badgen.net/npm/v/eg-nid)](https://www.npmjs.com/package/eg-nid)
+[![npm](https://badgen.net/npm/dt/eg-nid)](https://www.npmjs.com/package/eg-nid)
+
 
 # Installation
 
