@@ -1,6 +1,6 @@
 {
   "name": "eg-nid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -17,6 +17,7 @@
   },
   "scripts": {
     "test": "jest --config jestconfig.json",
+    "test:watch": "jest --config jestconfig.json --watch",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
@@ -46,6 +47,6 @@
     "nid"
   ],
   "author": "Madkour17",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Extract basic info from Egyptian NIDs"
 }
