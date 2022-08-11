@@ -1,6 +1,6 @@
 {
   "name": "eg-nid",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
