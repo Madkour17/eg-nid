@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
+    "target": "es5",
+    "module": "ES2015",
     "lib": ["ES2019"],
     "declaration": true,
     "outDir": "./lib",
@@ -10,8 +10,10 @@
     "removeComments": true,
     "forceConsistentCasingInFileNames": true,
     "downlevelIteration": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src", "t.js", "t.js"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__test__/*", "dist", "rollup.config.js"]
 }

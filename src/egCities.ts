@@ -1,4 +1,5 @@
-{   "01": "Cairo",
+export const cities: Record<string, string> = {
+    "01": "Cairo",
     "02": "Alexandria",
     "03": "Port Said",
     "04": "Suez",

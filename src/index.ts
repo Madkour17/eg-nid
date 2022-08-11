@@ -1,12 +1,11 @@
 import { nidRegex, Result } from './constants'
-import * as cities from './egCities.json'
-
+import { cities } from './egCities'
 /**
  * 
  * @param nid Egyptian national ID - 14 Digits
  * @returns Result object {age, city, sex, day, month, year, bd}
  */
-export const egNid = (nid: string | number) => {
+export const egNid = (nid: string | number): 'wrong NID format' | Result => {
     const nidString = nid.toString()
     if (!validate(nidString)) return 'wrong NID format'
 
@@ -49,8 +48,7 @@ const getBD = (millennium: string, value: number | string) => {
 }
 
 const getCity = (cityCode: string) => {
-    // TODO: Refactoring 
-    const city = JSON.parse(JSON.stringify(cities))[cityCode]
+    const city = cities[cityCode]
     return city
 }
 
