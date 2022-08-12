@@ -15,5 +15,5 @@
     "allowSyntheticDefaultImports": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "**/__test__/*", "dist", "rollup.config.js"]
+  "exclude": ["node_modules", "**/__test__/*", "dist", "rollup.config.js", "test-locally"]
 }

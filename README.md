@@ -27,7 +27,11 @@ Extract basic info from Egyptian NIDs
 # Usage
 
 ```javascript
-const { egNid } = require('eg-nid');
+const { egNid } = require('eg-nid')
+```
+
+```javascript
+import { egNid } from 'eg-nid'
 ```
 
 # Example
