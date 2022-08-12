@@ -3,11 +3,11 @@ import { egNid } from ".."
 describe("Testing index.js", () => {
 
     test('Testing empty NID', () => {
-        expect(egNid('')).toMatch('wrong NID format')
+        expect(egNid('')).toMatch('Wrong NID')
     })
     test('Testing wrong NID', () => {
         const result = egNid('3001253')
-        expect(result).toMatch('wrong NID format')
+        expect(result).toMatch('Wrong NID')
     })
     test('Testing correct Male NID', () => {
         const result = egNid('29208150201314')
